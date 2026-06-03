@@ -15,11 +15,11 @@
 // 3. When the owner goes out of scope, the value will be dropped.
 
 // Example: Rule_1
-// fn main() {
-//     let s1 = String::from("RUST");
-//     // let len = calculate_length(&s1);
-//     // println!("The length of '{}' is {}.", s1, len);
-// }
+fn main() {
+    let s1 = String::from("RUST");
+    // let len = calculate_length(&s1);
+    // println!("The length of '{}' is {}.", s1, len);
+}
 
 // Rule_2
 // fn main() {
