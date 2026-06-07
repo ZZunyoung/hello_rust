@@ -1,3 +1,5 @@
+#![allow(warnings)]
+
 // Ownership, Borrowing and References
 
 // Ownership

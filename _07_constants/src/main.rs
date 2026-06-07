@@ -1,3 +1,5 @@
+#![allow(warnings)]
+
 // Constants
 fn main() {
     println!("Hello, world!");

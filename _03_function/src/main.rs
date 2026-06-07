@@ -1,3 +1,5 @@
+#![allow(warnings)]
+
 // Functions
 // Entry point
 // an function / variables shoud be written in snake case
