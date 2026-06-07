@@ -5,13 +5,11 @@ fn main() {
     let _y: i32; // Uninitialized but also unused, only a Warning !
 
     assert_eq!(x, 5);
-    println!("Success!");
 
     let mut x = 1;
     x += 2; 
     
     assert_eq!(x, 3);
-    println!("Success!");
 
     let x: i32 = 10;
     {
@@ -44,15 +42,11 @@ fn main() {
     // Shadowing
     let _y = "I can also be bound to text!"; 
 
-    println!("Success!");
-
     let (mut x, mut y) = (1, 2);
     x += 2;
 
     assert_eq!(x, 3);
     assert_eq!(y, 2);
-
-    println!("Success!");
 
     let (x, y);
     (x,_) = (3, 4);
@@ -60,7 +54,6 @@ fn main() {
     // Fill the blank to make the code work
     assert_eq!([x, y], [3, 2]);
 
-    println!("Success!");
 }
 
 fn define_x() {
